@@ -1,0 +1,58 @@
+# Range of alpha particles, 1 keV to 10 MeV in liquid water with Geant4-DNA dna_opt2.
+# The track length is compared with the ICRU 90 CSDA range.
+# Validation macro, run unchanged by the CI (no /control/execute, loops or
+# aliases). One /run/beamOn per energy: Run::EndOfRun appends one line per
+# run to range.txt, read by validation/parser.py.
+/control/verbose 2
+/run/verbose 1
+/run/numberOfThreads 4
+/random/setSeeds 12345 67890
+#
+/range/det/setMat G4_WATER
+/range/det/setRadius 1 m
+/range/det/setTrackingCut 10 eV
+/range/phys/addPhysics dna_opt2
+#
+/run/initialize
+/run/printProgress 0
+#
+/gun/particle alpha
+#
+/gun/energy 1 keV
+/run/beamOn 1000
+#
+/gun/energy 2 keV
+/run/beamOn 1000
+#
+/gun/energy 5 keV
+/run/beamOn 1000
+#
+/gun/energy 10 keV
+/run/beamOn 1000
+#
+/gun/energy 20 keV
+/run/beamOn 1000
+#
+/gun/energy 50 keV
+/run/beamOn 1000
+#
+/gun/energy 100 keV
+/run/beamOn 1000
+#
+/gun/energy 200 keV
+/run/beamOn 1000
+#
+/gun/energy 500 keV
+/run/beamOn 1000
+#
+/gun/energy 1 MeV
+/run/beamOn 1000
+#
+/gun/energy 2 MeV
+/run/beamOn 1000
+#
+/gun/energy 5 MeV
+/run/beamOn 200
+#
+/gun/energy 10 MeV
+/run/beamOn 200
