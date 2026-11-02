@@ -22,7 +22,10 @@ the events of:
 
 | Macro | Particle | Physics | Energies | Events per energy |
 | --- | --- | --- | --- | --- |
-| `e-_dna_opt2.mac` | e- | `dna_opt2` | 12 eV – 1 MeV | 1000 |
+| `e-_dna_opt2.mac` | e- | `dna_opt2` | 12 eV – 0.999 MeV | 1000 |
+| `e-_dna_opt4.mac` | e- | `dna_opt4` | 12 eV – 9.999 MeV | 1000 |
+| `e-_dna_opt6.mac` | e- | `dna_opt6` | 12 eV – 250 keV | 1000 |
+| `e-_dna_opt8.mac` | e- | `dna_opt8` | 12 eV – 0.999 MeV | 1000 |
 | `proton_dna_opt2.mac` | proton | `dna_opt2` | 1 keV – 10 MeV | 1000 (200 at 5, 10 MeV) |
 | `alpha_dna_opt2.mac` | alpha | `dna_opt2` | 1 keV – 10 MeV | 1000 (200 at 5, 10 MeV) |
 
