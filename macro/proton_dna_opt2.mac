@@ -175,4 +175,4 @@
 /run/beamOn 100
 #
 /gun/energy 300.0000 MeV
-#/run/beamOn 100
+/run/beamOn 100
