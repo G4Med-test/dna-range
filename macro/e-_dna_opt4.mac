@@ -1,4 +1,4 @@
-# Range of electrons, 12 eV to 1 MeV in liquid water with Geant4-DNA dna_opt2.
+# Range of electrons, 12 eV to 10 MeV in liquid water with Geant4-DNA dna_opt4.
 # The track length is compared with the ICRU 90 CSDA range.
 # Validation macro, run unchanged by the CI (no /control/execute, loops or
 # aliases). One /run/beamOn per energy: Run::EndOfRun appends one line per
@@ -19,118 +19,118 @@
 /gun/particle e-
 #
 /gun/energy 12 eV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 20 eV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 50 eV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 100 eV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 200 eV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 500 eV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 1 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 1.5 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 2 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 3 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 4 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 5 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 6 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 8 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 10 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 15 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 20 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 30 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 40 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 50 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 60 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 80 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 100 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 150 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 200 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 300 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 400 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 500 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 600 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 800 keV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 1 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 1.5 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 2 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 3 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 4 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 5 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 6 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 8 MeV
-/run/beamOn 1000
+/run/beamOn 10000
 #
 /gun/energy 9.999 MeV
-/run/beamOn 1000
+/run/beamOn 10000

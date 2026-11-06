@@ -18,8 +18,8 @@ import icru90
 from geantval import energy_mev, getJSON, one_command
 
 TEST = "dna-range"
-PHYSLISTS = {"dna", "dna_opt1", "dna_opt2", "dna_opt3", "dna_opt4", "dna_opt5", "dna_opt6",
-             "dna_opt7", "std_opt4"}
+PHYSLISTS = {"dna_opt2", "dna_opt4", "dna_opt6",
+             "dna_opt8"}
 DENSITY = 1.0  # g/cm3, G4_WATER
 
 # range.txt columns after the energy: (title, mean column, standard deviation column).
